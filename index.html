@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./index.css" rel="stylesheet" type='text/css' />
+    <script defer type="text/javascript" src="./index.js"></script>
 </head>
+
 <body>
+    <header>
+        <h1>Game of Thrones Characters</h1>
+        <nav>
+          <ul id="character-list">
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="character-details">
+          <h2 id="character-name">Character Name Goes Here</h2>
+          <img
+            id="character-image"
+            alt="Character Name Goes Here"
+            src="/Users/hibarashed/Development/phase-1/Game-of-Thrones-Project-A/game of thrones dragon silhouette.jpeg"
+          />
+          <p>
+            <!-- <em id="character-description">Character Description Goes Here</em> -->
+            <h4 id="character-family">family name</h4>
+            <h3 id="character-title">title </h3>
+          </p>
+        </div>
     
+        <form id="comments-form">
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments"></textarea>
+            <button  type="submit">Post Comment</button>
+
+        </form>
+
+        <div id='posted-comments'></div>
+
 </body>
 </html>
